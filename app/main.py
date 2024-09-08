@@ -1,8 +1,3 @@
-format_error = {
-    "line_number": "line", "column_number": "column", "text": "message",
-    "code": "name", "flake8": "source"
-}
-
 
 def format_linter_error(error: dict) -> dict:
     return {"line": error["line_number"],
